@@ -3,6 +3,10 @@ body {
     color: #333;
 }
 
+.span {
+    margin: 0;
+}
+
 h1 {
     display: block;
     width: 219px;
@@ -53,4 +57,31 @@ a:hover {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+}
+
+.mainContents {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+article {
+    background-color: purple;
+    color: #fff;
+}
+
+.sideBar {
+    background-color: orange;
+}
+
+footer {
+    margin-top: 40px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 40px;
+
 }

@@ -9,7 +9,10 @@
     <link type="text/css" href="css/style.css" rel="stylesheet" media="screen">
   </head>
   <body>
+
     <div class="container">
+
+      <!-- ヘッダー -->
       <header>
         <h1 class="pull-left"><a href="index.html">hello world!</a></h1>
 
@@ -38,20 +41,31 @@
 
       </header>
 
+      <!-- いい感じの画像 -->
       <div>
         <img class="clearfix" src="img/Desert.png">
       </div>
 
-      <article>
-        
-      </article>
+      <!-- メインコンテンツ -->
+      <div class="row-fluid mainContents">
 
-      <footer>
-        <section>
-          <ul>
-            <li><a href="">Home</a></li>
-          </ul>
+        <!-- 記事 -->
+        <article class="span9 pull-left">
+            <h3>見出し</h3>
+            <p>bootstrapでサイト作ってみたよ！</p>
+        </article>
+
+        <!-- サイドバウアー -->
+        <section class="span3 pull-right sideBar">
+          <h3>サイドバアー</h3>
+          <p>めんどいからここまでにしとこう！</p>
         </section>
+
+      </div>
+
+      <!-- フッター -->
+      <footer>
+        <p><small>&copy; copyright 2013 hirofumiyamoto</small></p>
       </footer>
 
     </div>
