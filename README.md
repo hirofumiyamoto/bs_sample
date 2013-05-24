@@ -1,2 +1,2 @@
-bs_sample
+Bootstrapのサンプル
 =========
